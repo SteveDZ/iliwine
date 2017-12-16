@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1,
+        "name": "3B",
+        "millesime": 0,
+        "type": "Mousserend Rosé",
+        "appelation": "DOC Bairrada",
+        "location": {
+            "lat": "40.4539219",
+            "lng": "-8.5156967"
+        },
+        "winery": "Filipa Pato  (leading lady - dochter van een van de bekendste wijnbouwers in Portugal nl. Luis Pato (aka Mister Baga) – getrouwd met William Wouters (bekende Antwerpse kok die zijn restaurant achterliet voor wijnbouw)",
+        "blend": [
+            {
+                "name": "Baga",
+                "percentage": 70
+            },
+            {
+                "name": "Bical",
+                "percentage": 30
+            }
+        ],
+        "technical_info": "Traditionele methode (2e gisting op fles) - 30 jaar oude wijnstokken, hand geplukte druiven - organische wijnbouw, enkel leksap (na kneuzing, dus niet geperst), fermentatie op inox (frisheid)",
+        "color": "Rosé",
+        "aroma": "",
+        "taste": "",
+        "conclusion": "",
+        "foodpairing": "Ideaal als aperitief, in combinatie met verschillende hapjes de ideale eindejaarsdrink voor wie eens wat anders zoekt dan Champagne en/of Cava. Wordt ook geserveerd in het Hof van Cleve & in de Karmeliet.",
+        "image": "assets/imgs/3b.png"
+    },
+    {
+        "id": 2,
+        "name": "Sabartés Brut Reserva",
+        "millesime": 0,
+        "type": "Cava",
+        "appelation": "DO Cava",
+        "location": {
+            "lat": "",
+            "lng": ""
+        },
+        "winery": "Heretat Sabartés",
+        "blend": [
+            {
+                "name": "Parellada ",
+                "percentage": 41
+            },
+            {
+                "name": "Xarel lo ",
+                "percentage": 26
+            },
+            {
+                "name": "Macabeo",
+                "percentage": 23
+            },
+            {
+                "name": "Chardonnay",
+                "percentage": 10
+            }
+        ],
+        "technical_info": "Methodo tradicional - rijping op fles van minstens 24 maanden (reserva = min. 15 maanden) - enkel leksap (na kneuzing, dus niet geperst) - fermentatie op inox (frisheid) - geen hout - 200.000 flessen ",
+        "color": "strogele kleur - fijne constante pareling",
+        "aroma": "citrus - groene appel - wit fruit - gistgeurtje (rijping)",
+        "taste": "frisse aanzet, fruitig - meer structuur (door de Chardonnay en de langere rijping)",
+        "conclusion": "prijs/kwaliteit = top - rijke, gestructureerde cava met aangename afdronk",
+        "foodpairing": "heel veelzijdig! Kan als aperitief gedronken worden, maar evengoed bij verschillende tapas.",
+        "image": "assets/imgs/sabartes.png"
+    },
+    {
+        "id": 3,
+        "name": "A DESCOBERTA BRANCO",
+        "millesime": 2016,
+        "type": "Wit",
+        "appelation": "DOC Dão",
+        "location": {
+            "lat": "",
+            "lng": ""
+        },
+        "winery": "Casa da Passarella",
+        "blend": [
+            {
+                "name": "Encruzado",
+                "percentage": 0
+            },
+            {
+                "name": "Malvasia Fina",
+                "percentage": 0
+            },
+            {
+                "name": "Verdelho",
+                "percentage": 0
+            }
+        ],
+        "technical_info": "Manuele oogst - korte maceratie met de schillen na het kneuzen – fermentatie op inox – 6 maand opvoeding sur lie + battonage in de inxo vaten – minimalistische ingrepen voor het stabiliseren",
+        "color": "",
+        "aroma": "",
+        "taste": "",
+        "conclusion": "",
+        "foodpairing": "",
+        "image": "assets/imgs/descoberta-branco.png"
+    },
+    {
+        "id": 4,
+        "name": "CONDES DE ALBAREI",
+        "millesime": 2016,
+        "type": "Wit",
+        "appelation": "DO Rias Baixas",
+        "location": {
+            "lat": "",
+            "lng": ""
+        },
+        "winery": "Condos de Albarei",
+        "blend": [
+            {
+                "name": "Albariño",
+                "percentage": 100
+            }
+        ],
+        "technical_info": "Na de oogst druiven en de wijnmakerij vervoerd, wordt de most gefermenteerd in roestvrijstalen tanks bij een gecontroleerde temperatuur van 18-20 ° C - voorzichtig schoongemaakt, gestabiliseerd en gefiltreerd vóór het bottelen",
+        "color": "Lichtgeel (groene schijn)",
+        "aroma": "Vers rijp fruit - witte bloemen - grassen",
+        "taste": "frisse aanzet – rond - mooie aciditeit in de mond en die domineert toch deze wijn – subtiele minerale aroma’s",
+        "conclusion": "frisse witte wijn met aardig wat fruit en mineraliteit – mooie en elegante wijn",
+        "foodpairing": "Bij oesters, quiche, schaaldieren of gewoon zomaar..",
+        "image": "assets/imgs/condes-de-albarei.png"
+    },
+    {
+        "id": 5,
+        "name": "MUROS ANTIGOS",
+        "millesime": 2016,
+        "type": "Wit",
+        "appelation": "DOC Vinho Verde – Minho-vallei",
+        "location": {
+            "lat": "",
+            "lng": ""
+        },
+        "winery": "Anselmo Mendes",
+        "blend": [
+            {
+                "name": "Alvarinho",
+                "percentage": 20
+            },
+            {
+                "name": "Loureiro",
+                "percentage": 40
+            },
+            {
+                "name": "Avesso",
+                "percentage": 40
+            }
+        ],
+        "technical_info": "Zachte kneuzing van de druiven zorgt voor het zuiverste sap – extreem koud geklaard – fermentatie bij lage temperatuur (12°-16°C) – minimum 4 maand opvoeding sur lies – 60.000 flessen",
+        "color": "Licht intens geel (groene schijn)",
+        "aroma": "citrus - groene appel – floraal- mooie aroma’s",
+        "taste": "frisse aanzet – fruitig in bouw – goed gestructureerd en in balans",
+        "conclusion": "prijs/kwaliteit! – frisse witte wijn met aardig wat fruit en mineraliteit -  valt ieder jaar in de prijzen",
+        "foodpairing": "Ideaal als aperitief of bij schaal- en schelpdieren.",
+        "image": "assets/imgs/muros-antigos.png"
+    },
+    {
+        "id": 6,
+        "name": "VESPRES BLANC",
+        "millesime": 2015,
+        "type": "Wit",
+        "appelation": "DO Montsant",
+        "location": {
+            "lat": "",
+            "lng": ""
+        },
+        "winery": "Josep Grau Viticultor",
+        "blend": [
+            {
+                "name": "Garnacha Blanco",
+                "percentage": 100
+            }
+        ],
+        "technical_info": "6ha in Marça (Priorat) – 15j oude stokken – organische wijnbouw – manuele oogst – 6 uren koud geperst en nadien 5 maand fermentatie met schillen op houter fouders – 7200 flessen",
+        "color": "Licht goudgeel",
+        "aroma": "Rijp wit fruit – floraal – anijs – lichte mnieraliteit",
+        "taste": "Zeer aangenaam mondgevoel met de nodige zuren – rond – sappig – goed gebalanceerd",
+        "conclusion": "Ronde witte wijn – body - kan",
+        "foodpairing": "Bij oesters, quiche, schaaldieren of gewoon zomaar...",
+        "image": "assets/imgs/vespres-blanc.png"
+    },
+    {
+        "id": 7,
+        "name": "VIRÉ-CLISSÉ TRADITION",
+        "millesime": 2014,
+        "type": "Wit",
+        "appelation": "AOP Viré-Clissé (Mâcon – Bourgogne)",
+        "location": {
+            "lat": "",
+            "lng": ""
+        },
+        "winery": "Domaine Michel",
+        "blend": [
+            {
+                "name": "Chardonnay",
+                "percentage": 100
+            },
+            {
+                "name": "",
+                "percentage": ""
+            }
+        ],
+        "technical_info": "7ha op de helling – 50 jaar oude stokken – gecontroleerde fermentatie op inox cuves – natuurlijke gisten – malolactische fermentatie – 12 maand opvoeding sur lies op diezelfde cuves – nadien nog 8 tot 20 maanden opvoeding op de fles in de kelder van het domein ",
+        "color": "Intens strogeel",
+        "aroma": "",
+        "taste": "",
+        "conclusion": "",
+        "foodpairing": "",
+        "image": "assets/imgs/vire-clisse.png"
+    }
+]

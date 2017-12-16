@@ -1,14 +1,49 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>
-      Ionic Blank
+      Iliwine
     </ion-title>
   </ion-navbar>
+  <ion-toolbar no-border-top color="secondary">
+    <ion-segment [(ngModel)]="listType">
+      <ion-segment-button value="kaarten" color="secondary">
+        Kaarten
+      </ion-segment-button>
+      <ion-segment-button value="lijst">
+        Lijst
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <div [ngSwitch]="listType">
+    <ion-list *ngSwitchCase="'kaarten'">
+      <ion-card *ngFor="let wine of wines$ | async" (click)="selectedWine(wine)">
+        <img [src]="wine.image" style="height: 300px; width: auto; margin: auto;"/>
+        <ion-card-content>
+          <ion-card-title>
+            {{wine.name}}
+          </ion-card-title>
+          <p [innerHtml]="wine.technical_info">
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'lijst'">
+      <ion-item *ngFor="let wine of wines$ | async" (click)="selectedWine(wine)">
+        <ion-avatar item-start>
+          <img [src]="wine.image" class="centered-avatar">
+        </ion-avatar>
+        <h2>{{wine.name}}</h2>
+        <h3>{{wine.appelation}}</h3>
+        <!-- <p>{{wine.technical_info}}</p> -->
+      </ion-item>
+    </ion-list>
+  </div>
+
+
+  
 </ion-content>
