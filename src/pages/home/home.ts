@@ -1,5 +1,4 @@
 import { StatusBar } from '@ionic-native/status-bar';
-import { WineDetailPage } from './../wine-detail/wine-detail';
 import { Observable } from 'rxjs/Observable';
 import { WineProvider } from './../../providers/wine/wine';
 import { Component } from '@angular/core';
@@ -26,7 +25,7 @@ export class HomePage {
   }
 
   public selectedWine(wine) {
-    this.navCtrl.push(WineDetailPage, {wine});
+    this.navCtrl.push('WineDetailPage', {wine});
   }
 
 }

@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { AngularFireDatabase } from 'angularfire2/database';
@@ -18,9 +17,6 @@ export class WineProvider {
   }
 
   public getWines(): Observable<any> {
-    //return this.http.get('assets/static/wines.json');
-    //iliwine-61318
-
     return this.db.list('/').valueChanges();
   }
 

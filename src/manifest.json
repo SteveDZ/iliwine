@@ -13,6 +13,11 @@
         "src": "assets/imgs/android-chrome-384x384.png",
         "sizes": "384x384",
         "type": "image/png"
+    },
+    {
+        "src": "assets/imgs/iliwine.png",
+        "sizes": "512x512",
+        "type": "image/png"
     }
 ],
   "background_color": "#af9670",

@@ -75,4 +75,8 @@ export class WineDetailPage {
         
   }
 
+  goBack() {
+    this.navCtrl.pop();
+  }
+
 }

@@ -21,7 +21,7 @@
   <div [ngSwitch]="listType">
     <ion-list *ngSwitchCase="'kaarten'">
       <ion-card *ngFor="let wine of wines$ | async" (click)="selectedWine(wine)">
-        <img [src]="wine.image" style="height: 300px; width: auto; margin: auto;"/>
+        <img [src]="wine.image" style="height: 300px; width: auto; margin: auto;" alt="wine.image"/>
         <ion-card-content>
           <ion-card-title>
             {{wine.name}}
@@ -35,7 +35,7 @@
     <ion-list *ngSwitchCase="'lijst'">
       <ion-item *ngFor="let wine of wines$ | async" (click)="selectedWine(wine)">
         <ion-avatar item-start>
-          <img [src]="wine.image" class="centered-avatar">
+          <img [src]="wine.image" class="centered-avatar" alt="wine.image">
         </ion-avatar>
         <h2>{{wine.name}}</h2>
         <h3>{{wine.appelation}}</h3>

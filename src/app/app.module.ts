@@ -1,4 +1,3 @@
-import { WineDetailPageModule } from './../pages/wine-detail/wine-detail.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -10,7 +9,6 @@ import { CommonModule } from '@angular/common';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { WineDetailPage } from '../pages/wine-detail/wine-detail';
 import { WineProvider } from '../providers/wine/wine';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -30,18 +28,19 @@ export const firebaseConfig = {
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
+    IonicModule.forRoot(MyApp, {
+      mode: 'md',
+      preloadModules: false
+    }),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     CommonModule,
-    HttpClientModule,
-    WineDetailPageModule
+    HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    WineDetailPage
+    HomePage
   ],
   providers: [
     StatusBar,

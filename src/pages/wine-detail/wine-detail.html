@@ -6,9 +6,14 @@
 -->
 <ion-header>
 
-  <ion-navbar color="secondary">
+  <ion-toolbar color="secondary">
+    <ion-buttons left>
+      <button ion-button (click)="goBack()">
+        <span class="icon-md-arrow-back" item-left style="color: white; font-size: 1.6em;"></span>
+      </button>
+    </ion-buttons>
     <ion-title>{{wine.name}}</ion-title>
-  </ion-navbar>
+  </ion-toolbar>
 
 </ion-header>
 
@@ -19,17 +24,17 @@
   <!--</ion-item>-->
 
   <ion-item text-wrap>
-    <ion-icon name="home" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-home" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.winery"></p>
   </ion-item>
 
   <ion-item text-wrap>
-    <ion-icon name="globe" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-globe" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.appelation"></p>
   </ion-item>
 
   <ion-item text-wrap>
-    <ion-icon name="pie" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-pie" item-left></span>
     <div> 
       <p style="color: #bdbfc1; font-size: 1.1em;" *ngFor="let grape of wine.blend; let isLast=last">
         {{grape.name}} <span *ngIf="grape.percentage !== 0">: {{grape.percentage}}%</span> <br *ngIf="!isLast">
@@ -38,37 +43,37 @@
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.technical_info !== ''">
-    <ion-icon name="settings" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-settings" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.technical_info"></p>
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.color !== ''">
-    <ion-icon name="color-palette" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-color-palette" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.color"></p>
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.aroma !== ''">
-    <ion-icon name="rose" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-rose" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em; display: inline;" [innerHTML]="wine.aroma"></p>
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.taste !== ''">
-    <ion-icon name="wine" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-wine" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.taste"></p>
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.conclusion !== ''">
-    <ion-icon name="information-circle" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-information-circle" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.conclusion"></p>
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.foodpairing !== ''">
-    <ion-icon name="restaurant" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-restaurant" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.foodpairing"></p>
   </ion-item>
 
   <ion-item text-wrap *ngIf="wine.price && wine.price !== 0">
-    <ion-icon name="pricetag" item-left color="secondary-dark"></ion-icon>
+    <span class="icon-md-pricetag" item-left></span>
     <p style="color: #bdbfc1; font-size: 1.1em;" [innerHTML]="wine.price + '€'"></p>
   </ion-item>
   

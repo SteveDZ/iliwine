@@ -80,11 +80,13 @@ $colors: (
 // The premium icon font for Ionic. For more info, please see:
 // http://ionicframework.com/docs/ionicons/
 
-@import "ionic.ionicons";
+//@import "ionic.ionicons";
+//@import "src/assets/custom-icon-fonts/style.css";
 
 
 // Fonts
 // --------------------------------------------------
 
 @import "roboto";
-@import "noto-sans";
+//Don't import ios fonts...
+//@import "noto-sans";
