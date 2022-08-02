@@ -4,10 +4,10 @@ metadata:
   name: iliwine
   description: Iliwine app containing the wines being presented during degustations.
   tags:
-    - Angular
-    - Ionic
-    - PWA
-    - Firebase
+    - angular
+    - ionic
+    - pwa
+    - firebase
 spec:
   type: app
   lifecycle: production
