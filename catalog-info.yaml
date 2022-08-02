@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iliwine
+  description: Iliwine app containing the wines being presented during degustations.
+  tags:
+    - Angular
+    - Ionic
+    - PWA
+    - Firebase
+spec:
+  type: app
+  lifecycle: production
+  owner: team-a
